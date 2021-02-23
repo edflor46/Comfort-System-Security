@@ -1,10 +1,5 @@
 # Sistema de control de usuarios, clientes y trabajos
 
-<!-- ## Descripcion
-Comfort System & Security es una pequeña empresa que tiene varios puntos de enfoque y por ende 
-tiende a tener varios trabajos y le es algo dificil llevar un control mas preciso, por ello
-nace el desarrollo de este sistema que ofrece un mejor control de los usuarios, clientes, categorias
-y trabajos realizados  -->
 
 ## Informacion del desarrollo del sistema
 
@@ -14,7 +9,7 @@ Sistema desarrollado con:
 3. AdminLTE
 4. Bootstrap
 
-Aplicando el paradigma de programacio: Programacion Orientada a Objetos (POO) y el Modelo Vista Controlador (MVC)
+Aplicando el paradigma de programacion: Programacion Orientada a Objetos (POO) y el Modelo Vista Controlador (MVC)
 
 ## Secciones del sistema
 
