@@ -1,0 +1,233 @@
+/* -------------------------------------------------------------------------- */
+/*                                    Login                                   */
+/* -------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------------------- */
+/*                                  Generales                                 */
+/* -------------------------------------------------------------------------- */
+*,::before, ::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.m-user{
+    margin-left: .7rem!important;
+    width: 40px !important;
+    height: 40px !important;
+}
+/* 
+font-family: 'DM Sans', sans-serif;
+
+font-family: 'Yanone Kaffeesatz', sans-serif; */
+
+/* -------------------------------------------------------------------------- */
+/*                              Contenedor login                              */
+/* -------------------------------------------------------------------------- */
+
+.container__login{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);
+    
+
+}
+
+.login{
+    position: relative;
+    top: -1rem;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1.2rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    Form                                    */
+/* -------------------------------------------------------------------------- */
+
+.form__login{
+    width: 300px;
+}
+
+.img__logo-login{
+    height: 250px;
+}
+
+.titulo__login{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: -2.1rem;
+    margin-bottom: 2rem;
+}
+
+.form__box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    padding: .25rem 0;
+    border-bottom: 2px solid  rgb(29, 29, 29);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Focus input                                */
+/* -------------------------------------------------------------------------- */
+
+.form__box.focus{
+    border-bottom: 2px solid #790707;
+}
+
+.form__box-one{
+    margin-bottom: 3rem;
+}
+
+.icon__login{
+    font-size: 1.5rem;
+    transition: ease-in-out all .4s;
+    color:rgba(29, 29, 29);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Focus icon                                 */
+/* -------------------------------------------------------------------------- */
+.form__box.focus .icon__login{
+    color: #790707;
+}
+
+.form__label-login{
+    display: block;
+    position: absolute;
+    left: .75rem;
+    top: .25rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: rgba(29, 29, 29);
+    transition: ease-in-out .4s;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Focus Label                                */
+/* -------------------------------------------------------------------------- */
+.form__box.focus .form__label-login{
+    top: -1.5rem;
+    font-size: .875rem;
+    color: #790707;
+}
+/* -------------------------------------------------------------------------- */
+/*                                   Inputs                                   */
+/* -------------------------------------------------------------------------- */
+.form__box-input{
+    position: relative;
+    
+}
+
+.form__input-login{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    padding: .5rem .75rem;
+    font-size: 1.2rem;
+    color: #790707;
+    transition: ease-in-out .4s;
+}
+
+.form__btn-login{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+    border: none;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    background-color:  rgb(29, 29, 29);
+    color: #eee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: ease-in-out .4s;
+}
+
+.form__btn-login:hover{
+    background-color: #790707;
+}
+
+@media screen and (min-width: 968px){
+    .form__login{
+        width: 320px;
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Alerts                              */
+/* -------------------------------------------------------------------------- */
+.alertaOff{
+    display: none;
+}
+
+.password_alerta{
+    display: none;
+}
+
+.alertFormat{
+    display: block !important;
+}
+
+.alertSize{
+    display: block !important;
+}
+
+.animated{
+    transition: ease-in-out .4s;
+}
+
+.error__form{
+    display: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 ConfigTable                                */
+/* -------------------------------------------------------------------------- */
+
+
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 8px 10px; /* e.g. change 8x to 4px here */
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                  Text Area                                 */
+/* -------------------------------------------------------------------------- */
+
+.text-area{
+    resize: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                     btn                                    */
+/* -------------------------------------------------------------------------- */
+
+.btn-navy{
+    background-color: #081534 !important;
+}
+
+.btn-navy:hover{
+    background-color: #102965 !important;
+}
